@@ -1,0 +1,11 @@
+- name: Angelo Miele
+  role: Fisarmonica
+  image: studenti/angelomiele.jpg
+
+- name: Filippo Ansaldi
+  role: Sassofono
+  image: studenti/filippoansaldi.jpg
+
+- name: Flavio Nati
+  role: Chitarra
+  image: studenti/flavionati.jpg

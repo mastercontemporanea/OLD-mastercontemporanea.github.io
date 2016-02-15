@@ -1,0 +1,91 @@
+# run:
+# grunt serve
+# on separate shell run
+# grunt
+#
+# Site settings
+title: Master Interpretazione della Musica Contemporanea
+description: "Master Annuale di II Livello in Interpretazione della Musica Contemporanea"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: img/MASTERCONTEMPORANEALOGO.svg
+
+permalink: /:title/
+
+# Hero
+hero:
+    hero_img: parallax.jpg
+    hero_title: MasterContemporanea
+    hero_description: Master Annuale di II Livello <br> Interpretazione della Musica Contemporanea
+
+# Contact form
+api_token: # Enter API token here
+
+# Contact info
+contact:
+    phone: +39 06 36096722
+    emergency: +39 366 9771461
+    email: info@mastercontemporanea.com
+    address: Via dei Greci 18, <br> 00187 Roma - Italy
+
+# # Opening hours
+# monday_friday: 9:00 – 18:00
+# saturday: 10:00 – 17:00
+# sunday: 10:00 – 15:00
+
+# Testimonials
+testimonials:
+    testimonials_img: DSC4146.jpg
+
+# Map
+map:
+    zoom: 17
+    address: Via dei Greci 18, Roma, Italia
+    address_details: svg/min/logo.svg
+
+# Social settings
+facebook: http://facebook.com
+twitter: http://twitter.com
+instagram: http://instagram.com
+youtube: http://youtube.com
+skype: skype:obaez_design?userinfo
+feed: yes
+
+# Footer
+copyright: © 2016 MasterContemporanea - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics:
+google_verification:
+
+
+# We will then declare the lang variable for each folderit is also possible
+# to provide manually the lang in the frontmatters, in order to be able
+# later to detect the lang and the translations. To do so, we write the
+# following statement in _config.yml:
+defaults:
+  -
+    scope:
+      path: _posts/en
+    values:
+      layout: default
+      lang: en
+  -
+    scope:
+      path: _posts/it
+    values:
+      layout: default
+      lang: it

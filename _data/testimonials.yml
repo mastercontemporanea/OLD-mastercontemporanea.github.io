@@ -1,0 +1,14 @@
+- name: Angelo Miele
+  description: I teach law at Greendale, so believe me, I don't know much about law.
+  title: Fisarmonica
+  image: studenti/angelomiele.jpg
+
+- name: Filippo Ansaldi
+  description: Let's do what people do. Let's get a house we can't afford and a dog that makes us angry.
+  title: Sassofono
+  image: studenti/filippoansaldi.jpg
+
+- name: Flavio Nati
+  description: Let's do what people do. Let's get a house we can't afford and a dog that makes us angry.
+  title: Chitarra
+  image: studenti/flavionati.jpg
