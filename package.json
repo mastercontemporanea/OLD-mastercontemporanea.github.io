@@ -1,4 +1,8 @@
 {
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/mastercontemporanea/mastercontemporanea.github.io.git"
+  },
   "name": "mastercontemporanea",
   "version": "1.0.0",
   "description": "",

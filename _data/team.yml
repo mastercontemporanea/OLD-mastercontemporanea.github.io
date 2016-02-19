@@ -1,34 +1,35 @@
 - name: Bruno Canino
   role: Pianoforte
-  image: team.jpg
+  image: docenti/canino.jpg
   email: canino@mastercontemporanea.com
 
 - name: Enzo Filippetti
   role: Sassofono
-  image: team.jpg
+  image: docenti/filippetti.png
   email: filippetti@mastercontemporanea.com
 
 - name: Massimiliano Pitocco
   role: Fisarmonica
-  image: team.jpg
+  image: docenti/pitocco.jpg
   email: pitocco@mastercontemporanea.com
+  web: http://massimilianopitocco.com
 
 - name: Daniele Roccato
   role: Contrabbasso
-  image: team.jpg
+  image: docenti/roccato.png
   email: roccato@mastercontemporanea.com
 
 - name: Gianluca Ruggeri
   role: Percussioni
-  image: team.jpg
+  image: docenti/ruggeri.png
   email: ruggeri@mastercontemporanea.com
 
 - name: Luca Sanzò
   role: Viola
-  image: team.jpg
+  image: docenti/sanzo.jpg
   email: sanzo@mastercontemporanea.com
 
 - name: Arturo Tallini
   role: Chitarra
-  image: team.jpg
+  image: docenti/tallini.png
   email: tallini@mastercontemporanea.com

@@ -1,0 +1,20 @@
+<!-- Start Our team -->
+<div id="team" class="team">
+    <h2 class="section-title">Docenti:</h2>
+    <div id="team-carousel">
+    {% for member in site.data.team %}
+        <div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
+                <h4>{{ member.name }}</h4>
+                <h4>{{ member.role }}</h4>
+            </div>
+            <div class="expandable-box-bottom">
+                <span data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></span>
+                <span data-toggle="tooltip" data-placement="bottom" title="{{ member.web }}"><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>
+<!-- End Our team -->

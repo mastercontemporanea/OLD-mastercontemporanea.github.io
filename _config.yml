@@ -7,7 +7,7 @@
 title: Master Interpretazione della Musica Contemporanea
 description: "Master Annuale di II Livello in Interpretazione della Musica Contemporanea"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+url: "http://mastercontemporanea.com" # the name of your domain
 logo_url: img/MASTERCONTEMPORANEALOGO.svg
 
 permalink: /:title/
@@ -19,13 +19,14 @@ hero:
     hero_description: Master Annuale di II Livello <br> Interpretazione della Musica Contemporanea
 
 # Contact form
-api_token: # Enter API token here
+api_token: 81c5c38ffac3051679f51f4239d8fb83
 
 # Contact info
 contact:
     phone: +39 06 36096722
     emergency: +39 366 9771461
     email: info@mastercontemporanea.com
+    school: Conservatorio S. Cecilia
     address: Via dei Greci 18, <br> 00187 Roma - Italy
 
 # # Opening hours

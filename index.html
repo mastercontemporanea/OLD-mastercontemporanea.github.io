@@ -49,7 +49,11 @@ layout: default
             <div class="col-sm-6">
                 <!-- <h3>Descrizione</h3> -->
                 <p>Il Master di II livello in interpretazione della Musica Contemporanea si propone, quale obiettivo fondamentale, quello di garantire l’acquisizione delle competenze tecniche e teoriche necessarie per affrontare in termini specialistici il repertorio della musica contemporanea. Il Master prevede un percorso di studio di alto perfezionamento orientato nello specifico settore della produzione e interpretazione della musica contemporanea. Finalità del corso è quella di formare professionisti di livello internazionale pienamente consapevoli della prassi esecutiva e del repertorio contemporaneo, solistico e d’insieme, dello strumento.</p>
+                <p>Il piano di studi del Master è articolato in lezioni individuali, di gruppo e collettive; in laboratori e in stages presso enti di rilievo internazionale quali: Musica per Roma, Accademia Filarmonica Romana, Nuova Consonanza, Istituzione Universitaria dei Concerti (IUC) ed Europa Musica. Il percorso formativo prevede, quale momento connotante e qualificante del corso, la partecipazione alla produzione di recital e concerti presso gli Enti ospitanti gli stages.</p>
 
+            </div>
+            <div class="col-sm-6">
+                <!-- <img src="img/biggroup.svg" alt="..."> -->
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
@@ -91,14 +95,9 @@ layout: default
                     </div>
                     <div class="media-body">
                         <p>Enti coinvolti:
-Conservatorio di Musica di Santa Cecilia - Nuova Consonanza - Musica per Roma - Accademia Filarmonica Romana - Istituzione Universitaria dei Concerti (IUC) - Europa Musica</p>
+                          Conservatorio di Musica di Santa Cecilia - Nuova Consonanza - Musica per Roma - Accademia Filarmonica Romana - Istituzione Universitaria dei Concerti (IUC) - Europa Musica</p>
                     </div>
                 </div>
-
-            </div>
-            <div class="col-sm-6">
-                <!-- <img src="img/biggroup.svg" alt="..."> -->
-                <p>Il piano di studi del Master è articolato in lezioni individuali, di gruppo e collettive; in laboratori e in stages presso enti di rilievo internazionale quali: Musica per Roma, Accademia Filarmonica Romana, Nuova Consonanza, Istituzione Universitaria dei Concerti (IUC) ed Europa Musica. Il percorso formativo prevede, quale momento connotante e qualificante del corso, la partecipazione alla produzione di recital e concerti presso gli Enti ospitanti gli stages.</p>
             </div>
         </div>
     </div>
@@ -133,9 +132,8 @@ Conservatorio di Musica di Santa Cecilia - Nuova Consonanza - Musica per Roma - 
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
         <h3>Luoghi</h3>
-            <p>
-                {{ site.contact.address }}
-            </p>
+          <p><em>{{ site.contact.school }}</em></p>
+          <p>{{ site.contact.address }}</p>
     </div>
 </div>
 <!-- End 3 columns -->
@@ -160,26 +158,7 @@ Conservatorio di Musica di Santa Cecilia - Nuova Consonanza - Musica per Roma - 
 </div>
 <!-- End Treatments -->
 
-<!-- Start Our team -->
-<div id="team" class="team">
-    <h2 class="section-title">Docenti:</h2>
-    <div id="team-carousel">
-    {% for member in site.data.team %}
-        <div class="expandable-box">
-            <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
-                <h4>{{ member.name }}</h4>
-                <h4>{{ member.role }}</h4>
-            </div>
-            <div class="expandable-box-bottom">
-                <span data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></span>
-                <!-- <span data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></span> -->
-            </div>
-        </div>
-    {% endfor %}
-    </div>
-</div>
-<!-- End Our team -->
+{% include docenti.html %}
 
 <!-- Start Testimonials -->
 <div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">

@@ -10,7 +10,7 @@ module.exports = function (grunt) {
             dist: {
                 src: ['js/bootstrap.js', 'js/owl.carousel.js', 'js/jquery.magnific-popup.js', 'js/gmap3.js', 'js/custom.js'],
                 dest: 'js/all.js'
-            } 
+            }
         },
 
         uglify: {
@@ -41,12 +41,12 @@ module.exports = function (grunt) {
 
         shell : {
             jekyllServe : {
-                command : 'jekyll serve'
+                command : 'jekyll serve --config _config.yml,_config_dev.yml'
             },
 
             jekyllBuild : {
                 command : 'jekyll build'
-            }  
+            }
         },
 
         svgmin: {
