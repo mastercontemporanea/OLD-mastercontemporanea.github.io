@@ -43,7 +43,7 @@ layout: default
 <!-- Start About -->
 <div id="about" class="about">
     <div class="container-fluid">
-        <h2 class="section-title">Il Corso</h2>
+        <h2 class="section-title">Il Master</h2>
 
         <div class="row">
             <div class="col-sm-6">
@@ -72,7 +72,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Durata: Un anno accademico (2 semestri)</p>
+                        <p>Durata: Un anno accademico (2 semestri) da Novembre 2016 a Ottobre 2017</p>
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Strumenti per l’edizione 2015-16: Chitarra, Contrabbasso, Percussioni, Pianoforte, Saxofono, Viola.</p>
+                        <p>Strumenti per l’edizione 2016-17: Chitarra, Contrabbasso, Flauto, Percussioni, Pianoforte, Saxofono, Viola</p>
                     </div>
                 </div>
 
@@ -95,7 +95,107 @@ layout: default
                     </div>
                     <div class="media-body">
                         <p>Enti coinvolti:
-                          Conservatorio di Musica di Santa Cecilia - Nuova Consonanza - Musica per Roma - Accademia Filarmonica Romana - Istituzione Universitaria dei Concerti (IUC) - Europa Musica</p>
+                          Conservatorio di Musica di Santa Cecilia - Nuova Consonanza - Musica per Roma - Accademia Filarmonica Romana - Istituzione Universitaria dei Concerti (IUC) - Europa Musica - MAXXI Roma - ArteScienza (CRM)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End About -->
+
+<!-- Start Treatments -->
+<div id="treatments" class="treatments">
+    <div class="container-fluid">
+        <h2 class="section-title">Corsi Principali</h2>
+
+        <div class="row">
+            {% for treatment in site.data.treatments %}
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                        <h4>{{ treatment.title }}</h4>
+                        <p>{{ treatment.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- End Treatments -->
+
+{% include docenti.html %}
+
+<!-- Start About -->
+<div id="corsi" class="corsi">
+    <div class="container-fluid">
+        <h2 class="section-title">Laboratorio e Corsi</h2>
+
+        <div class="row">
+            <div class="col-sm-5">
+                <!-- <h3>Descrizione</h3> -->
+                <p>Nel Laboratorio si confronteranno le esigenze compositi- ve e interpretative nel rapporto tra scrittura e prassi esecu- tiva della musica contemporanea. Saranno prese in esame le diverse soluzioni adottate dai compositori nella vasta letteratura per ensemble dal se- condo dopoguerra a oggi, segnatamente in relazione con l’organico strumentale dei partecipanti. Contestualmente si solleciteranno gli allievi di composizione del Conserva- torio a scrivere per l’Ensemble formato dagli allievi del Ma- ster favorendo il confronto tra competenze: si cercherà di rendere partecipe il compositore alle problematiche reali dello studio e dell’esecuzione di una partitura contempo- ranea, così come di rendere consapevole l’interprete delle strategie compositive che l’autore mette in atto nella fase creativa e della conseguente scelta di una plausibile ed ef cace notazione musicale.</p>
+            </div>
+            <div class="col-sm-7">
+                <!-- <img src="img/biggroup.svg" alt="..."> -->
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>Analisi delle forme e Grafia della Musica Contemporanea.<br>
+                        Forme, sistemi e linguaggi musicali dal Novecento storico al periodo contemporaneo.<br>
+                        <strong>Rosario Mirigliano - Francesco Telli</strong></p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>Musica Elettroacustica.<br>
+                        <strong>Michelangelo Lupone</strong></p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>Laboratorio fra Compositori e Interpreti<br>
+                          Ensemble<br>
+                          <strong>Tonino Battista</strong></p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>Prassi esecutive e repertori della musica da camera contemporanea<br>
+                          <strong>Rosaria Clemente</strong></p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>Storia e analisi delle Forme e del Repertorio Contemporaneo<br>
+                          <strong>Antonietta Cerocchi</strong></p>
                     </div>
                 </div>
             </div>
@@ -117,7 +217,7 @@ layout: default
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Calendario 2015/2016</h3>
+        <h3>Calendario 2016/2017</h3>
         {% for month in site.data.months %}
         <table>
             <tbody>
@@ -137,28 +237,6 @@ layout: default
     </div>
 </div>
 <!-- End 3 columns -->
-
-<!-- Start Treatments -->
-<div id="treatments" class="treatments">
-    <div class="container-fluid">
-        <h2 class="section-title">Corsi</h2>
-
-        <div class="row">
-            {% for treatment in site.data.treatments %}
-                <div class="col-sm-6 col-md-4">
-                    <div class="icon-box">
-                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                        <h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description }}</p>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
-<!-- End Treatments -->
-
-{% include docenti.html %}
 
 <!-- Start Testimonials -->
 <div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">

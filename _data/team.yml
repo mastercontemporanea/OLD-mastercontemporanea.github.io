@@ -8,6 +8,12 @@
   image: docenti/filippetti.png
   email: filippetti@mastercontemporanea.com
 
+- name: Carlo Morena
+  role: Flauto
+  image: docenti/morena.jpg
+  email:
+  web: http://carlomorena.net/
+
 - name: Massimiliano Pitocco
   role: Fisarmonica
   image: docenti/pitocco.jpg
@@ -18,6 +24,7 @@
   role: Contrabbasso
   image: docenti/roccato.png
   email: roccato@mastercontemporanea.com
+  web: http://www.danieleroccato.com
 
 - name: Gianluca Ruggeri
   role: Percussioni
@@ -33,3 +40,4 @@
   role: Chitarra
   image: docenti/tallini.png
   email: tallini@mastercontemporanea.com
+  web: http://arturotallini.com

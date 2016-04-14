@@ -6,3 +6,12 @@
         margin-bottom: $space;
     }
 }
+
+/* ABOUT
+-------------------------------------------------*/
+.corsi {
+    @extend %space;
+    .media {
+        margin-bottom: $space;
+    }
+}

@@ -1,29 +1,32 @@
-- month: november
-  dates: 10th to 14th
+- month: novembre
+  dates: 7 - 11
 
-- month: dicember
-  dates: from 1st to 5th
+- month: dicembre
+  dates: 12 - 16
 
-- month: january
-  dates: from 12th to 15th
+- month: gennaio
+  dates: 16 - 20
 
-- month: february
-  dates: from 9th to 13th
+- month: febbraio
+  dates: 13 - 17
 
-- month: march
-  dates: from 8th to 12th
+- month: marzo
+  dates: 13 - 17
 
-- month: april
-  dates: from 5th to 9th
+- month: aprile
+  dates: 3 - 7
 
-- month: june
-  dates: from 7th to 11th and from 28th
+- month: maggio
+  dates: 15 - 19
 
-- month: july
-  dates: to 2nd
+- month: giugno
+  dates: 5 - 9
 
-- month: september
-  dates: from 6th to 10th
+- month: luglio
+  dates: 3 - 7
 
-- month: october
-  dates: from 11 to 15
+- month: settembre
+  dates: 11 - 15
+
+- month: ottobre
+  dates: 9 - 13
