@@ -6,12 +6,12 @@
   title: Contrabbasso - Daniele Roccato
   description: Modulo I 15h - Modulo II 12h.
 
-- icon: icon-user-md
-  title: Flauto - Carlo Morena
-  description: Modulo I 15h - Modulo II 12h.
-
 - icon: icon-diamond
   title: Fisarmonica - Massimiliano Pitocco
+  description: Modulo I 15h - Modulo II 12h.
+
+- icon: icon-user-md
+  title: Flauto - Carlo Morena
   description: Modulo I 15h - Modulo II 12h.
 
 - icon: icon-user-md
@@ -28,4 +28,8 @@
 
 - icon: icon-globe
   title: Viola - Luca Sanzò
+  description: Modulo I 15h - Modulo II 12h.
+
+- icon: icon-globe
+  title: Voce - Nicholas Isherwood
   description: Modulo I 15h - Modulo II 12h.
